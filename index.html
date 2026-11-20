@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bera Test</title>
+</head>
+<body>
+  <main>
+    <h1 id="message">Hello from Bera</h1>
+    <button id="changeBtn">Click Me</button>
+  </main>
+  <script>
+    document.getElementById("changeBtn").addEventListener("click", function() {
+      document.getElementById("message").textContent = "It works!";
+    });
+  </script>
+</body>
+</html>
